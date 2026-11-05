@@ -1,9 +1,9 @@
-# OIBSIP - Oasis Infobyte Summer Internship Program
+# OIBSIP - Oasis Infobyte Internship Program
 
-**Intern:** Ellen Grace Sinday
-**Track:** Web Development & Designing
-**Level:** 2
-**Internship Period:** 5 November 2026 - 15 December 2026
+- **Intern:** Ellen Grace Sinday
+- **Track:** Web Development & Designing
+- **Level:** 2
+- **Internship Period:** 5 November 2026 - 15 December 2026
 
 ## Tasks
 
