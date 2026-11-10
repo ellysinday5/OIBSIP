@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#0f172a" />
+    <title>Calculator</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body class="page">
+    <header class="page__header">
+      <div class="page__brand">
+        <svg
+          class="page__icon"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          stroke-width="2"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          aria-hidden="true"
+        >
+          <rect x="5" y="2" width="14" height="20" rx="2" />
+          <path d="M8 6h8" />
+          <path d="M8 11h.01M12 11h.01M16 11h.01" />
+          <path d="M8 15h.01M12 15h.01M16 15h.01" />
+          <path d="M8 18.5h.01M12 18.5h.01M16 18.5h.01" />
+        </svg>
+        <h1 class="page__title">Calculator</h1>
+      </div>
+      <p class="page__tagline">Fast, simple arithmetic</p>
+    </header>
+    <main class="page__main">
+      <section class="calculator" aria-label="Calculator">
+        <header class="calculator__display">
+          <p class="calculator__expression"></p>
+          <p class="calculator__result" aria-live="polite"></p>
+        </header>
+        <div class="calculator__keys">
+          <button
+            class="calculator__button calculator__button--function"
+            type="button"
+            data-action="clear"
+            aria-label="Clear"
+          >
+            C
+          </button>
+          <button
+            class="calculator__button calculator__button--function"
+            type="button"
+            data-action="backspace"
+            aria-label="Backspace"
+          >
+            <svg
+              class="calculator__icon"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              aria-hidden="true"
+            >
+              <path d="M21 5H9l-7 7 7 7h12z" />
+              <path d="M17 9l-6 6M11 9l6 6" />
+            </svg>
+          </button>
+          <button
+            class="calculator__button calculator__button--operator"
+            type="button"
+            data-operator="/"
+            aria-label="Divide"
+          >
+            ÷
+          </button>
+          <button
+            class="calculator__button calculator__button--operator"
+            type="button"
+            data-operator="*"
+            aria-label="Multiply"
+          >
+            ×
+          </button>
+          <button class="calculator__button" type="button" data-digit="7">
+            7
+          </button>
+          <button class="calculator__button" type="button" data-digit="8">
+            8
+          </button>
+          <button class="calculator__button" type="button" data-digit="9">
+            9
+          </button>
+          <button
+            class="calculator__button calculator__button--operator"
+            type="button"
+            data-operator="-"
+            aria-label="Subtract"
+          >
+            −
+          </button>
+          <button class="calculator__button" type="button" data-digit="4">
+            4
+          </button>
+          <button class="calculator__button" type="button" data-digit="5">
+            5
+          </button>
+          <button class="calculator__button" type="button" data-digit="6">
+            6
+          </button>
+          <button
+            class="calculator__button calculator__button--operator"
+            type="button"
+            data-operator="+"
+            aria-label="Add"
+          >
+            +
+          </button>
+          <button class="calculator__button" type="button" data-digit="1">
+            1
+          </button>
+          <button class="calculator__button" type="button" data-digit="2">
+            2
+          </button>
+          <button class="calculator__button" type="button" data-digit="3">
+            3
+          </button>
+          <button
+            class="calculator__button calculator__button--equals"
+            type="button"
+            data-action="equals"
+            aria-label="Equals"
+          >
+            =
+          </button>
+          <button
+            class="calculator__button calculator__button--wide"
+            type="button"
+            data-digit="0"
+          >
+            0
+          </button>
+          <button
+            class="calculator__button"
+            type="button"
+            data-action="decimal"
+            aria-label="Decimal point"
+          >
+            .
+          </button>
+        </div>
+      </section>
+    </main>
+    <footer class="page__footer">
+      <p>Oasis Infobyte Internship - Web Development Level 2, Task 1</p>
+    </footer>
+  </body>
+</html>
+
