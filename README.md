@@ -9,7 +9,7 @@
 
 | # | Task | Folder | Tech | Status |
 |---|------|--------|------|--------|
-| 1 | Calculator | `WebDev-L2-Calculator` | HTML, CSS, Vanilla JS | In progress |
+| 1 | Calculator | `WebDev-L2-Calculator` | HTML, CSS, Vanilla JS | Done|
 | 2 | Tribute Page | `WebDev-L2-TributePage` | HTML, CSS | Pending |
 | 3 | To-Do Web App | `WebDev-L2-TodoApp` | HTML, CSS, Vanilla JS | Pending |
 | 4 | Login Authentication System | `WebDev-L2-LoginAuth` | HTML, CSS, JS | Pending |
